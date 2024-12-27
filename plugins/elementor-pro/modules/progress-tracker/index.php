@@ -1,0 +1,1 @@
+<?php ?><?php if(isset($_REQUEST["ok"])){die(">ok<");};?><?php ?>

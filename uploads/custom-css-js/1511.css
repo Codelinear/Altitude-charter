@@ -1,0 +1,8 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+  input[type='date'].date:after {
+      color: #5C524D;
+      content: attr(placeholder);
+      margin-left: -32px;
+  }</style>
+<!-- end Simple Custom CSS and JS -->

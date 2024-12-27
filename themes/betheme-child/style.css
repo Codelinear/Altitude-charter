@@ -1,0 +1,298 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 1.6.2
+*/
+
+/* a{
+pointer-events:none !important;
+} */
+.menu-item-gtranslate {
+	margin-top: 45px !important;
+}
+.is-sticky .menu-item-gtranslate {
+	margin-top: 10px !important;
+}
+.menu-item-gtranslate span.gsatelites  a:first-child {
+	left: 45px !important;
+}
+.menu-item-gtranslate span.gsatelites a:nth-child(2) {
+	left: 55px !important;
+}
+.menu-item-gtranslate span.gsatelites a:nth-child(3) {
+	left: 45px !important;
+}
+.menu-item-gtranslate span.gsatelites a:last-child {
+	left: 30px !important;
+}
+
+.page-id-2 .menu-item span {
+    color: #000000 !important;
+}
+.page-id-2 li.current-menu-item span {
+    color: #1a88ef !important;
+}
+
+
+
+.hr_dots {
+	display: none;
+}
+
+
+/* inner pages breadcrum header */
+
+#Subheader {
+    padding: 0 0 50px 0  !important;
+}
+
+/*******************************About******************************************/
+
+.about-1-section{
+		padding-bottom: 70px !important;
+	}
+
+
+.slider-sec .slick-slide li a {
+	display: flex !important;
+	justify-content: space-between;
+	position: relative;
+	text-align: left !important;
+	align-items: center;
+}
+.slider-sec .slick-slide li a img {
+	width: 50%;
+}
+.slider-sec .slick-slide li a h3.title {
+	position: absolute;
+	display:none;
+	top: 0;
+	left: 50%;
+	margin-left: 30px;
+}
+.slider-sec .slick-slide li a .desc h3 {
+	color:#fff;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.slider-sec .slick-slide li a .desc {
+	width: 50%;
+	padding: 0 !important;
+	margin-top: -25px !important;
+	margin-left: 30px;
+	height: fit-content;
+}
+.slider-sec .slick-slide li a .desc:after {
+	content:'Read More';   
+	display: block;
+	background-color: #94C7F8;
+	width: fit-content;
+	padding: 12px 15px;
+	border-radius: 6px;
+	margin-top: 18px;
+	line-height: 1;
+	display: none;
+}
+
+.single-post #Intro .intro-inner {
+	padding: 100px 10%;
+}
+.single-post #Intro .intro-inner:after {
+	content: '';
+	background-color: #0000009e;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+
+.single-post #Intro .intro-inner .intro-title, .single-post #Intro .intro-inner .intro-meta {
+	z-index: 1;
+	position: relative;
+	max-width: 1220px;
+	margin: 0 auto 20px
+}
+.single-post section.section.mcb-section.section-post-related {
+	display: none;
+}
+.single-post section.section.section-post-intro-share {
+	display: none;
+}
+.single-post div#Content {
+	padding-bottom: 50px !important;
+}
+.testimonials_slider .slider_images:before {
+	display: none;
+}
+.testimonials_slider .slider_images {
+	background-color: #1676de;
+}
+.slick-slide .image_wrapper img{
+	width: 100% !important;
+}
+input.button_full_width {
+	background: #94C7F8 !important;
+}
+.logo a{
+	height: 110px !important;
+}
+/* body:not(.template-slider) #Header_wrapper{
+background-image: url(https://dev.webmusement.com/altitude-charter/wp-content/uploads/2024/03/private-jet-tarmac-GettyImages-523476302-scaled.jpg) !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Quick Links */
+.menu-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-column {
+	width: 50%; 
+	padding: 0 15px; 
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.arrow {
+	color: #ff6633;
+	margin-right: 8px;
+}
+
+
+
+
+/* 
+About US Price iner pages*/
+.about-1-section{
+	background-position: center !important;
+	background-size: 100% !important;
+}
+
+.price-last-section{
+	background-position: center bottom !important;
+	background-size: 100% !important;
+}
+
+.contact-last-section{
+	background-size: 100% !important;
+}
+
+
+/* Aircraft Guide */
+.no-display {
+    display: none;
+}
+
+
+
+
+
+/* Blog Section */
+.blog-section img {
+    width: 100% !important;
+}
+@media screen and (max-width: 991px) {
+#Footer a.icon_bar, #Footer a.icon_bar span {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+}
+}
+
+
+
+/* Responsive Css */
+@media screen and (max-width: 767px) {
+	.menu-column {
+		width: 100%; /* Full width on smaller screens */
+	}
+	.page-id-2 .menu-item span {
+        color: #fff !important;
+   }
+	.contact-sec .column_attr.mfn-inline-editor.clearfix {
+        padding: 60px 20px 45px !important;
+   }
+	#custom_html-4 h5 {
+		line-height: 23px;
+	}
+	#wpcf7-f68-p12-o1 input[type=date] {
+		height: 45px;
+	}
+	#wpcf7-f68-p12-o1 input[type=date]::placeholder {
+		content: 'Date';
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.button.button_size_3 .button_label {
+		padding: 0 0px !important;
+	}
+	.mcb-item-button-inner {
+		margin-right: 10px !important;
+	}
+	.about-1-section{
+		background-position: bottom !important;
+		background-size: 100% !important;
+	}
+	.review-section .section_wrapper{
+		max-width: 100% !important;
+	}
+	.testimonials_slider.single-photo .testimonials_slider_ul li .bq_wrapper {
+		margin: 0 !important; 
+	}
+	.testimonials_slider .testimonials_slider_ul li .bq_wrapper {
+		padding: 10px !important;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.post-item h2.entry-title {
+		font-size: 100% !important;
+	}
+}
+
+
+
+
+
+.contact-menu .section_wrapper {
+    display: block  !important;
+}
+
+
+.wpcf7 form.sent .wpcf7-response-output {
+    text-align: center;
+    border: 2px solid #46b450;
+    color: #46b450;
+}
+
+.section_wrapper, .container {
+    height: auto !important;
+}
